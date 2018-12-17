@@ -1,0 +1,8 @@
+def Donuts():
+    string3='Donuts'
+    newFile2=open("S\\Donuts.txt", "w+")
+    newFile2.writelines('Glazed\n')
+    newfile2.writelines('Eclair\n')
+    newfile2.writelines('Sprinkles\n')
+    newfile2.close()
+    
